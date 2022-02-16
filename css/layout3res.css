@@ -1,0 +1,87 @@
+@media (max-width:950px) {
+    .container2{
+        top:60px;
+        width:100%;
+        justify-content: center;
+    }
+    .container2 ion-icon{
+    font-size: 35px;
+    color:white;
+    padding:15px;
+    }
+    .container3{
+        position: relative;
+        top:55px;
+        left:30px;
+        right:30px;
+        width:95%;
+        display:flex;
+        flex-flow: column;
+        margin: 10px 30px 30px 10px;  
+    }
+    .abt1,.abt2,.abt3{
+        width:95%;
+        margin:10px 0;
+    }
+    .property{
+        margin-top:20px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;                
+    }
+    .prop1,.prop2,.prop3,.prop4,.prop5{
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: center;        
+        align-items: center;
+        color:#6151C3;
+        background-color: white;
+        padding:10px 60px;
+        border-radius: 25px; 
+        margin:10px 10px;     
+    }
+    .container7{
+        position: relative;
+        top:200px;
+        padding-bottom: 50px;
+        width:90%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 30px 10px 30px;
+    }
+    .country{
+        margin: 10px 10px;
+    }
+    .formdiv{
+        justify-content: center;
+        align-items: center;
+        margin-left:0px;
+    }
+    .container11{
+        display: flex;
+        top:350px;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe{
+        margin: 10px auto;
+    }
+    .container15{
+        display:flex;
+        flex-flow:column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container15 img{
+        width:480px;
+        height:250px;
+        object-fit: cover;
+        object-position: 20% 100%;
+        padding: 0 10px;
+        margin:10px 10px;
+    }
+}
